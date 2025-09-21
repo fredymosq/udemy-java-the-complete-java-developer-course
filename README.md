@@ -3,8 +3,8 @@
 
 
 This repository contains all code challenges and assignments completed from the Udemy course:  
-**[ava Masterclass 2025: 130+ Hours of Expert Lessons](https://www.udemy.com/course/java-the-complete-java-developer-course)**  
-by *Tim Buchalka.  
+**[Java Masterclass 2025: 130+ Hours of Expert Lessons](https://www.udemy.com/course/java-the-complete-java-developer-course)**  
+by *Tim Buchalka*.  
 
 ## Repository Structure
 - The code files are organized by course sections.  
