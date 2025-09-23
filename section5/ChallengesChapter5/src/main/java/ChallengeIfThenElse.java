@@ -9,21 +9,22 @@ public class ChallengeIfThenElse {
         int levelCompleted = 5;
         int bonus = 100;
 
+        calculateScore(gameOver, score, levelCompleted, bonus);
+        calculateScore(true, 1000, 6, 200);
+
+    }
+
+    private static void calculateScore(
+            boolean gameOver,
+            int score,
+            int levelCompleted,
+            int bonus){
+
         int finalScore = score;
 
         if (gameOver){
             finalScore += (levelCompleted * bonus);
             System.out.println("your final score was "+finalScore);
         }
-
-        score = 100;
-        levelCompleted = 8;
-        bonus = 200;
-
-        if (gameOver){
-            finalScore += (levelCompleted * bonus);
-            System.out.println("your final score was "+finalScore);
-        }
-
     }
 }
