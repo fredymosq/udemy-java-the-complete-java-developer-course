@@ -3,7 +3,7 @@ public class DigitSum {
 
     public static void main(String[] args) {
 
-        int number = -1100;
+        int number = 8;
         printDigitSum(number);
     }
 
@@ -15,11 +15,12 @@ public class DigitSum {
         }
 
         int sum = 0;
-        while (number > 0){
+        while (number > 9){
             int digit = number % 10;
             number = number / 10;
             sum += digit;
         }
+        sum += number;
 
         System.out.println(sum);
     }
