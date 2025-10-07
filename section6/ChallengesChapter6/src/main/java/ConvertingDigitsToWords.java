@@ -84,7 +84,7 @@ public class ConvertingDigitsToWords {
         if (number < 0){
             return -1;
         }
-        if (number >= 0 && number < 10){
+        if (number < 10){
             return 1;
         }
 
